@@ -80,7 +80,7 @@ class _MyHomePageState extends State<MyHomePage> {
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
         child: FutureBuilder(
-          future: loadData(),
+          future: loadAllData(), // loadSubSetOfData(),
           builder: (context, snapshot) {
             switch (snapshot.connectionState) {
               case ConnectionState.waiting:
@@ -102,7 +102,7 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  Future<ValueSetData> loadData() async {
+  Future<ValueSetData> loadAllData() async {
     return ValueSetData.loadFromAssets(
       documentClassPath: "assets/IHE.XDS.classCode.json",
       documentTypePath: "assets/IHE.XDS.typeCode.json",
@@ -112,6 +112,13 @@ class _MyHomePageState extends State<MyHomePage> {
       eventCodePath: "assets/IHE.XDS.eventCodeList.json",
       attachmentFormatPath: "assets/IHE.XDS.formatCode.json",
       attachmentContentTypePath: "assets/IHE.XDS.contentTypeCode.json",
+    );
+  }
+
+  Future<ValueSetData> loadSubSetOfData() async {
+    return ValueSetData.loadFromAssets(
+      documentClassPath: "assets/IHE.XDS.classCode.json",
+      documentTypePath: "assets/IHE.XDS.typeCode.json",
     );
   }
 }
