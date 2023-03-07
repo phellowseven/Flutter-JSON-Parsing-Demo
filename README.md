@@ -60,16 +60,16 @@ _Note:_ when using VSCode, you may need to reload the window after this command 
 
 ```bash
 fvm flutter pub get # get packages
-fvm flutter run
+fvm flutter run # run the app
 ```
 
 # Reproduce the bug
 
 1. Start out using Flutter version 3.7.0: `fvm use 3.7.0`
-2. Get packages: `fmv pub get`
+2. Get packages: `fmv flutter pub get`
 3. Run the app: `fmv flutter run` (When using VSCode to run, be sure to reload the window)
 4. The app should display **"IHE XDS classCode by IHE Deutschland e.V."**
 5. Stop the app
 6. Switch Flutter version to 3.7.1: `fvm use 3.7.1`
-7. Get packages: `fmv pub get`
+7. Get packages: `fmv flutter pub get`
 8. Run the app: `fmv flutter run` (When using VSCode to run, be sure to reload the window)
