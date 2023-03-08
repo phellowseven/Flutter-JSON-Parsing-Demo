@@ -1,0 +1,3724 @@
+{
+  "resourceType": "ValueSet",
+  "id": "1.2.276.0.76.11.32",
+  "url": "http://ihe-d.de/ValueSets/IHEXDSclassCode",
+  "version": "v3",
+  "title": "IHE XDS classCode",
+  "status": "active",
+  "date": "2021-06-25T13:44:47",
+  "publisher": "IHE Deutschland e.V.",
+  "compose": {
+    "include": [
+      {
+        "system": "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.8",
+        "extension": [
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "urn:pin:Dokumentenklassen"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "1.3.6.1.4.1.19376.3.276.1.5.8"
+          }
+        ],
+        "concept": [
+          {
+            "code": "ADM",
+            "display": "Administratives Dokument",
+            "designation": [{ "language": "de-DE", "value": "Administratives Dokument" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.8"
+              }
+            ]
+          },
+          {
+            "code": "ANF",
+            "display": "Anforderung",
+            "designation": [{ "language": "de-DE", "value": "Anforderung" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.8"
+              }
+            ]
+          },
+          {
+            "code": "ASM",
+            "display": "Assessment",
+            "designation": [{ "language": "de-DE", "value": "Assessment" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.8"
+              }
+            ]
+          },
+          {
+            "code": "BEF",
+            "display": "Befundbericht",
+            "designation": [{ "language": "de-DE", "value": "Befundbericht" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.8"
+              }
+            ]
+          },
+          {
+            "code": "BIL",
+            "display": "Bilddaten",
+            "designation": [{ "language": "de-DE", "value": "Bilddaten" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.8"
+              }
+            ]
+          },
+          {
+            "code": "BRI",
+            "display": "Brief",
+            "designation": [{ "language": "de-DE", "value": "Brief" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.8"
+              }
+            ]
+          },
+          {
+            "code": "DOK",
+            "display": "Dokumente ohne besondere Form (Notizen)",
+            "designation": [
+              { "language": "de-DE", "value": "Dokumente ohne besondere Form (Notizen)" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.8"
+              }
+            ]
+          },
+          {
+            "code": "DUR",
+            "display": "Durchführungsprotokoll",
+            "designation": [{ "language": "de-DE", "value": "Durchführungsprotokoll" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.8"
+              }
+            ]
+          },
+          {
+            "code": "FOR",
+            "display": "Forschung",
+            "designation": [{ "language": "de-DE", "value": "Forschung" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.8"
+              }
+            ]
+          },
+          {
+            "code": "GUT",
+            "display": "Gutachten und Qualitätsmanagement",
+            "designation": [{ "language": "de-DE", "value": "Gutachten und Qualitätsmanagement" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.8"
+              }
+            ]
+          },
+          {
+            "code": "LAB",
+            "display": "Laborergebnisse",
+            "designation": [{ "language": "de-DE", "value": "Laborergebnisse" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.8"
+              }
+            ]
+          },
+          {
+            "code": "AUS",
+            "display": "Medizinischer Ausweis",
+            "designation": [{ "language": "de-DE", "value": "Medizinischer Ausweis" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.8"
+              }
+            ]
+          },
+          {
+            "code": "PLA",
+            "display": "Planungsdokument",
+            "designation": [{ "language": "de-DE", "value": "Planungsdokument" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.8"
+              }
+            ]
+          },
+          {
+            "code": "VER",
+            "display": "Verordnung",
+            "designation": [{ "language": "de-DE", "value": "Verordnung" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.8"
+              }
+            ]
+          },
+          {
+            "code": "VID",
+            "display": "Videodaten",
+            "designation": [{ "language": "de-DE", "value": "Videodaten" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.8"
+              }
+            ]
+          },
+          {
+            "code": "MED",
+            "display": "obsolet",
+            "designation": [{ "language": "de-DE", "value": "Medikation" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.1",
+        "extension": [
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "urn:pin:Logical%20Observation%20Identifier%20Names%20and%20Codes"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "http://loinc.org"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "2.16.840.1.113883.6.1"
+          }
+        ],
+        "concept": [
+          {
+            "code": "57016-8",
+            "display": "Patienteneinverständniserklärung",
+            "designation": [{ "language": "de-DE", "value": "Patienteneinverständniserklärung" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "2.16.840.1.113883.6.1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.9",
+        "extension": [
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "urn:pin:Dokumententypen"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+          }
+        ],
+        "concept": [
+          {
+            "code": "ABRE",
+            "display": "Abrechnungsdokumente",
+            "designation": [{ "language": "de-DE", "value": "Abrechnungsdokumente" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "ADCH",
+            "display": "Administrative Checklisten",
+            "designation": [{ "language": "de-DE", "value": "Administrative Checklisten" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "ANTR",
+            "display": "Anträge und deren Bescheide",
+            "designation": [{ "language": "de-DE", "value": "Anträge und deren Bescheide" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "ANAE",
+            "display": "Anästhesiedokumente",
+            "designation": [{ "language": "de-DE", "value": "Anästhesiedokumente" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "BERI",
+            "display": "Arztberichte",
+            "designation": [{ "language": "de-DE", "value": "Arztberichte" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "BESC",
+            "display": "Ärztliche Bescheinigungen",
+            "designation": [{ "language": "de-DE", "value": "Ärztliche Bescheinigungen" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "BEFU",
+            "display": "Ergebnisse Diagnostik",
+            "designation": [{ "language": "de-DE", "value": "Ergebnisse Diagnostik" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "BSTR",
+            "display": "Bestrahlungsdokumentation",
+            "designation": [{ "language": "de-DE", "value": "Bestrahlungsdokumentation" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "AUFN",
+            "display": "Einweisungs- und Aufnahmedokumente",
+            "designation": [{ "language": "de-DE", "value": "Einweisungs- und Aufnahmedokumente" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "EINW",
+            "display": "Einwilligungen/Aufklärungen",
+            "designation": [{ "language": "de-DE", "value": "Einwilligungen/Aufklärungen" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "FUNK",
+            "display": "Ergebnisse Funktionsdiagnostik",
+            "designation": [{ "language": "de-DE", "value": "Ergebnisse Funktionsdiagnostik" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "BILD",
+            "display": "Ergebnisse bildgebender Diagnostik",
+            "designation": [{ "language": "de-DE", "value": "Ergebnisse bildgebender Diagnostik" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "FALL",
+            "display": "Fallbesprechungen",
+            "designation": [{ "language": "de-DE", "value": "Fallbesprechungen" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "FOTO",
+            "display": "Fotodokumentation",
+            "designation": [{ "language": "de-DE", "value": "Fotodokumentation" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "FPRO",
+            "display": "Therapiedokumentation",
+            "designation": [{ "language": "de-DE", "value": "Therapiedokumentation" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "IMMU",
+            "display": "Ergebnisse Immunologie",
+            "designation": [{ "language": "de-DE", "value": "Ergebnisse Immunologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "INTS",
+            "display": "Intensivmedizinische Dokumente",
+            "designation": [{ "language": "de-DE", "value": "Intensivmedizinische Dokumente" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "KOMP",
+            "display": "Komplexbehandlungsbögen",
+            "designation": [{ "language": "de-DE", "value": "Komplexbehandlungsbögen" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "MEDI",
+            "display": "Medikamentöse Therapien",
+            "designation": [{ "language": "de-DE", "value": "Medikamentöse Therapien" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "MKRO",
+            "display": "Ergebnisse Mikrobiologie",
+            "designation": [{ "language": "de-DE", "value": "Ergebnisse Mikrobiologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "OPDK",
+            "display": "OP-Dokumente",
+            "designation": [{ "language": "de-DE", "value": "OP-Dokumente" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "ONKO",
+            "display": "Onkologische Dokumente",
+            "designation": [{ "language": "de-DE", "value": "Onkologische Dokumente" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "PATH",
+            "display": "Pathologiebefundberichte",
+            "designation": [{ "language": "de-DE", "value": "Pathologiebefundberichte" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "PATD",
+            "display": "Patienteneigene Dokumente",
+            "designation": [{ "language": "de-DE", "value": "Patienteneigene Dokumente" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "PATI",
+            "display": "Patienteninformationen",
+            "designation": [{ "language": "de-DE", "value": "Patienteninformationen" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "PFLG",
+            "display": "Pflegedokumentation",
+            "designation": [{ "language": "de-DE", "value": "Pflegedokumentation" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "QUAL",
+            "display": "Qualitätssicherung",
+            "designation": [{ "language": "de-DE", "value": "Qualitätssicherung" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "RETT",
+            "display": "Rettungsdienstliche Dokumente",
+            "designation": [{ "language": "de-DE", "value": "Rettungsdienstliche Dokumente" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "SCHR",
+            "display": "Schriftwechsel (administrativ)",
+            "designation": [{ "language": "de-DE", "value": "Schriftwechsel (administrativ)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "GEBU",
+            "display": "Schwangerschafts- und Geburtsdokumentation",
+            "designation": [
+              { "language": "de-DE", "value": "Schwangerschafts- und Geburtsdokumentation" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "SOZI",
+            "display": "Sozialdienstdokumente",
+            "designation": [{ "language": "de-DE", "value": "Sozialdienstdokumente" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "STUD",
+            "display": "Studiendokumente",
+            "designation": [{ "language": "de-DE", "value": "Studiendokumente" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "TRFU",
+            "display": "Transfusionsdokumente",
+            "designation": [{ "language": "de-DE", "value": "Transfusionsdokumente" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "TRPL",
+            "display": "Transplantationsdokumente",
+            "designation": [{ "language": "de-DE", "value": "Transplantationsdokumente" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "VERO",
+            "display": "Verordnungen",
+            "designation": [{ "language": "de-DE", "value": "Verordnungen" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "VERT",
+            "display": "Verträge",
+            "designation": [{ "language": "de-DE", "value": "Verträge" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "VIRO",
+            "display": "Ergebnisse Virologie",
+            "designation": [{ "language": "de-DE", "value": "Ergebnisse Virologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          },
+          {
+            "code": "WUND",
+            "display": "Wunddokumentation",
+            "designation": [{ "language": "de-DE", "value": "Wunddokumentation" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.9"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.6.1",
+        "extension": [
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "urn:pin:Logical%20Observation%20Identifier%20Names%20and%20Codes"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "http://loinc.org"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "2.16.840.1.113883.6.1"
+          }
+        ],
+        "concept": [
+          {
+            "code": "57016-8",
+            "display": "Patienteneinverständniserklärung",
+            "designation": [{ "language": "de-DE", "value": "Patienteneinverständniserklärung" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "2.16.840.1.113883.6.1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.4",
+        "extension": [
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "urn:pin:Aerztliche%20Fachrichtungen"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+          }
+        ],
+        "concept": [
+          {
+            "code": "ALLG",
+            "display": "Allgemeinmedizin",
+            "designation": [{ "language": "de-DE", "value": "Allgemeinmedizin" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "ANAE",
+            "display": "Anästhesiologie",
+            "designation": [{ "language": "de-DE", "value": "Anästhesiologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "ARBE",
+            "display": "Arbeitsmedizin",
+            "designation": [{ "language": "de-DE", "value": "Arbeitsmedizin" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "AUGE",
+            "display": "Augenheilkunde",
+            "designation": [{ "language": "de-DE", "value": "Augenheilkunde" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "CHIR",
+            "display": "Chirurgie",
+            "designation": [{ "language": "de-DE", "value": "Chirurgie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "ALCH",
+            "display": "Allgemeinchirurgie",
+            "designation": [{ "language": "de-DE", "value": "Allgemeinchirurgie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "GFCH",
+            "display": "Gefäßchirurgie",
+            "designation": [{ "language": "de-DE", "value": "Gefäßchirurgie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "HZCH",
+            "display": "Herzchirurgie",
+            "designation": [{ "language": "de-DE", "value": "Herzchirurgie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "KDCH",
+            "display": "Kinderchirurgie",
+            "designation": [{ "language": "de-DE", "value": "Kinderchirurgie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "ORTH",
+            "display": "Orthopädie",
+            "designation": [{ "language": "de-DE", "value": "Orthopädie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "PLCH",
+            "display": "Plastische und Ästhetische Chirurgie",
+            "designation": [
+              { "language": "de-DE", "value": "Plastische und Ästhetische Chirurgie" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "THCH",
+            "display": "Thoraxchirurgie",
+            "designation": [{ "language": "de-DE", "value": "Thoraxchirurgie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "UNFC",
+            "display": "Unfallchirurgie",
+            "designation": [{ "language": "de-DE", "value": "Unfallchirurgie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "VICH",
+            "display": "Viszeralchirurgie",
+            "designation": [{ "language": "de-DE", "value": "Viszeralchirurgie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "FRAU",
+            "display": "Frauenheilkunde und Geburtshilfe",
+            "designation": [{ "language": "de-DE", "value": "Frauenheilkunde und Geburtshilfe" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "GEND",
+            "display": "Gynäkologische Endokrinologie und Reproduktionsmedizin",
+            "designation": [
+              {
+                "language": "de-DE",
+                "value": "Gynäkologische Endokrinologie und Reproduktionsmedizin"
+              }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "GONK",
+            "display": "Gynäkologische Onkologie",
+            "designation": [{ "language": "de-DE", "value": "Gynäkologische Onkologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "PERI",
+            "display": "Perinatalmedizin",
+            "designation": [{ "language": "de-DE", "value": "Perinatalmedizin" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "GERI",
+            "display": "Geriatrie",
+            "designation": [{ "language": "de-DE", "value": "Geriatrie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "HNOH",
+            "display": "Hals-Nasen-Ohrenheilkunde",
+            "designation": [{ "language": "de-DE", "value": "Hals-Nasen-Ohrenheilkunde" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "HRST",
+            "display": "Sprach-, Stimm- und kindliche Hörstörungen",
+            "designation": [
+              { "language": "de-DE", "value": "Sprach-, Stimm- und kindliche Hörstörungen" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "HAUT",
+            "display": "Haut- und Geschlechtskrankheiten",
+            "designation": [{ "language": "de-DE", "value": "Haut- und Geschlechtskrankheiten" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "HIST",
+            "display": "obsolet",
+            "designation": [{ "language": "de-DE", "value": "Histologie / Zytologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "HUMA",
+            "display": "Humangenetik",
+            "designation": [{ "language": "de-DE", "value": "Humangenetik" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "HYGI",
+            "display": "Hygiene und Umweltmedizin",
+            "designation": [{ "language": "de-DE", "value": "Hygiene und Umweltmedizin" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "INNE",
+            "display": "Innere Medizin",
+            "designation": [{ "language": "de-DE", "value": "Innere Medizin" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "ANGI",
+            "display": "Angiologie",
+            "designation": [{ "language": "de-DE", "value": "Angiologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "ENDO",
+            "display": "Endokrinologie und Diabetologie",
+            "designation": [{ "language": "de-DE", "value": "Endokrinologie und Diabetologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "GAST",
+            "display": "Gastroenterologie",
+            "designation": [{ "language": "de-DE", "value": "Gastroenterologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "HAEM",
+            "display": "Hämatologie und internistische Onkologie",
+            "designation": [
+              { "language": "de-DE", "value": "Hämatologie und internistische Onkologie" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "KARD",
+            "display": "Kardiologie",
+            "designation": [{ "language": "de-DE", "value": "Kardiologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "NEPH",
+            "display": "Nephrologie",
+            "designation": [{ "language": "de-DE", "value": "Nephrologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "PNEU",
+            "display": "Pneumologie",
+            "designation": [{ "language": "de-DE", "value": "Pneumologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "RHEU",
+            "display": "Rheumatologie",
+            "designation": [{ "language": "de-DE", "value": "Rheumatologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "INTM",
+            "display": "Intensivmedizin",
+            "designation": [{ "language": "de-DE", "value": "Intensivmedizin" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "INTZ",
+            "display": "Interdisziplinäre Zusammenarbeit",
+            "designation": [{ "language": "de-DE", "value": "Interdisziplinäre Zusammenarbeit" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "INTO",
+            "display": "Interdisziplinäre Onkologie",
+            "designation": [{ "language": "de-DE", "value": "Interdisziplinäre Onkologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "INTS",
+            "display": "Interdisziplinäre Schmerzmedizin",
+            "designation": [{ "language": "de-DE", "value": "Interdisziplinäre Schmerzmedizin" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "TRPL",
+            "display": "Transplantationsmedizin",
+            "designation": [{ "language": "de-DE", "value": "Transplantationsmedizin" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "SELT",
+            "display": "seltene Erkrankungen",
+            "designation": [{ "language": "de-DE", "value": "seltene Erkrankungen" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "KIJU",
+            "display": "Kinder- und Jugendmedizin",
+            "designation": [{ "language": "de-DE", "value": "Kinder- und Jugendmedizin" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "KONK",
+            "display": "Kinder-Hämatologie und -Onkologie",
+            "designation": [{ "language": "de-DE", "value": "Kinder-Hämatologie und -Onkologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "KKAR",
+            "display": "Kinder-Kardiologie",
+            "designation": [{ "language": "de-DE", "value": "Kinder-Kardiologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "NNAT",
+            "display": "Neonatologie",
+            "designation": [{ "language": "de-DE", "value": "Neonatologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "NPAE",
+            "display": "Neuropädiatrie",
+            "designation": [{ "language": "de-DE", "value": "Neuropädiatrie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "KPSY",
+            "display": "Kinder- und Jugendpsychiatrie und -psychotherapie",
+            "designation": [
+              { "language": "de-DE", "value": "Kinder- und Jugendpsychiatrie und -psychotherapie" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "LABO",
+            "display": "Laboratoriumsmedizin",
+            "designation": [{ "language": "de-DE", "value": "Laboratoriumsmedizin" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "MIKR",
+            "display": "Mikrobiologie, Virologie und Infektionsepidemiologie",
+            "designation": [
+              {
+                "language": "de-DE",
+                "value": "Mikrobiologie, Virologie und Infektionsepidemiologie"
+              }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "MKGC",
+            "display": "Mund-Kiefer-Gesichtschirurgie",
+            "designation": [{ "language": "de-DE", "value": "Mund-Kiefer-Gesichtschirurgie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "NATU",
+            "display": "Naturheilverfahren und alternative Heilmethoden",
+            "designation": [
+              { "language": "de-DE", "value": "Naturheilverfahren und alternative Heilmethoden" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "NOTF",
+            "display": "Notfallmedizin",
+            "designation": [{ "language": "de-DE", "value": "Notfallmedizin" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "NRCH",
+            "display": "Neurochirurgie",
+            "designation": [{ "language": "de-DE", "value": "Neurochirurgie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "NEUR",
+            "display": "Neurologie",
+            "designation": [{ "language": "de-DE", "value": "Neurologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "NUKL",
+            "display": "Nuklearmedizin",
+            "designation": [{ "language": "de-DE", "value": "Nuklearmedizin" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "GESU",
+            "display": "Öffentliches Gesundheitswesen",
+            "designation": [{ "language": "de-DE", "value": "Öffentliches Gesundheitswesen" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "PALL",
+            "display": "Palliativmedizin",
+            "designation": [{ "language": "de-DE", "value": "Palliativmedizin" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "PATH",
+            "display": "Pathologie",
+            "designation": [{ "language": "de-DE", "value": "Pathologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "NPAT",
+            "display": "Neuropathologie",
+            "designation": [{ "language": "de-DE", "value": "Neuropathologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "PHAR",
+            "display": "Pharmakologie",
+            "designation": [{ "language": "de-DE", "value": "Pharmakologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "TOXI",
+            "display": "Toxikologie",
+            "designation": [{ "language": "de-DE", "value": "Toxikologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "REHA",
+            "display": "Physikalische und Rehabilitative Medizin",
+            "designation": [
+              { "language": "de-DE", "value": "Physikalische und Rehabilitative Medizin" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "PSYC",
+            "display": "Psychiatrie und Psychotherapie",
+            "designation": [{ "language": "de-DE", "value": "Psychiatrie und Psychotherapie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "FPSY",
+            "display": "Forensische Psychiatrie",
+            "designation": [{ "language": "de-DE", "value": "Forensische Psychiatrie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "PSYM",
+            "display": "Psychosomatische Medizin und Psychotherapie",
+            "designation": [
+              { "language": "de-DE", "value": "Psychosomatische Medizin und Psychotherapie" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "RADI",
+            "display": "Radiologie",
+            "designation": [{ "language": "de-DE", "value": "Radiologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "KRAD",
+            "display": "Kinderradiologie",
+            "designation": [{ "language": "de-DE", "value": "Kinderradiologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "NRAD",
+            "display": "Neuroradiologie",
+            "designation": [{ "language": "de-DE", "value": "Neuroradiologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "RECH",
+            "display": "Rechtsmedizin",
+            "designation": [{ "language": "de-DE", "value": "Rechtsmedizin" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "SCHL",
+            "display": "Schlafmedizin",
+            "designation": [{ "language": "de-DE", "value": "Schlafmedizin" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "SPOR",
+            "display": "Sport- und Bewegungsmedizin",
+            "designation": [{ "language": "de-DE", "value": "Sport- und Bewegungsmedizin" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "STRA",
+            "display": "Strahlentherapie",
+            "designation": [{ "language": "de-DE", "value": "Strahlentherapie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "TRAN",
+            "display": "Transfusionsmedizin",
+            "designation": [{ "language": "de-DE", "value": "Transfusionsmedizin" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "TROP",
+            "display": "Tropen-/Reisemedizin",
+            "designation": [{ "language": "de-DE", "value": "Tropen-/Reisemedizin" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "UROL",
+            "display": "Urologie",
+            "designation": [{ "language": "de-DE", "value": "Urologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "MZKH",
+            "display": "Zahnmedizin",
+            "designation": [{ "language": "de-DE", "value": "Zahnmedizin" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "ORAL",
+            "display": "Oralchirurgie",
+            "designation": [{ "language": "de-DE", "value": "Oralchirurgie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "KIEF",
+            "display": "Kieferorthopädie",
+            "designation": [{ "language": "de-DE", "value": "Kieferorthopädie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          },
+          {
+            "code": "PARO",
+            "display": "Parodontologie",
+            "designation": [{ "language": "de-DE", "value": "Parodontologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.5",
+        "extension": [
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "urn:pin:Nicht-aerztliche%20Fachrichtungen"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "1.3.6.1.4.1.19376.3.276.1.5.5"
+          }
+        ],
+        "concept": [
+          {
+            "code": "ERG",
+            "display": "Ergotherapie",
+            "designation": [{ "language": "de-DE", "value": "Ergotherapie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.5"
+              }
+            ]
+          },
+          {
+            "code": "ERN",
+            "display": "Ernährung und Diätetik",
+            "designation": [{ "language": "de-DE", "value": "Ernährung und Diätetik" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.5"
+              }
+            ]
+          },
+          {
+            "code": "FOR",
+            "display": "Forschung",
+            "designation": [{ "language": "de-DE", "value": "Forschung" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.5"
+              }
+            ]
+          },
+          {
+            "code": "PFL",
+            "display": "Pflege und Betreuung",
+            "designation": [{ "language": "de-DE", "value": "Pflege und Betreuung" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.5"
+              }
+            ]
+          },
+          {
+            "code": "ALT",
+            "display": "Altenpflege",
+            "designation": [{ "language": "de-DE", "value": "Altenpflege" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.5"
+              }
+            ]
+          },
+          {
+            "code": "KIN",
+            "display": "Kinderpflege",
+            "designation": [{ "language": "de-DE", "value": "Kinderpflege" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.5"
+              }
+            ]
+          },
+          {
+            "code": "PAT",
+            "display": "Patient außerhalb der Betreuung",
+            "designation": [{ "language": "de-DE", "value": "Patient außerhalb der Betreuung" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.5"
+              }
+            ]
+          },
+          {
+            "code": "PHZ",
+            "display": "Pharmazeutik",
+            "designation": [{ "language": "de-DE", "value": "Pharmazeutik" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.5"
+              }
+            ]
+          },
+          {
+            "code": "POD",
+            "display": "Podologie",
+            "designation": [{ "language": "de-DE", "value": "Podologie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.5"
+              }
+            ]
+          },
+          {
+            "code": "PRV",
+            "display": "Prävention",
+            "designation": [{ "language": "de-DE", "value": "Prävention" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.5"
+              }
+            ]
+          },
+          {
+            "code": "SOZ",
+            "display": "Sozialwesen",
+            "designation": [{ "language": "de-DE", "value": "Sozialwesen" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.5"
+              }
+            ]
+          },
+          {
+            "code": "SPR",
+            "display": "Sprachtherapie",
+            "designation": [{ "language": "de-DE", "value": "Sprachtherapie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.5"
+              }
+            ]
+          },
+          {
+            "code": "VKO",
+            "display": "Versorgungskoordination",
+            "designation": [{ "language": "de-DE", "value": "Versorgungskoordination" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.5"
+              }
+            ]
+          },
+          {
+            "code": "VER",
+            "display": "Verwaltung",
+            "designation": [{ "language": "de-DE", "value": "Verwaltung" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.5"
+              }
+            ]
+          },
+          {
+            "code": "PST",
+            "display": "Psychotherapie",
+            "designation": [{ "language": "de-DE", "value": "Psychotherapie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.5"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.2",
+        "extension": [
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "urn:pin:Einrichtungsarten%20der%20patientenbezogenen%20Gesundheitsversorgung"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "1.3.6.1.4.1.19376.3.276.1.5.2"
+          }
+        ],
+        "concept": [
+          {
+            "code": "APD",
+            "display": "Ambulanter Pflegedienst",
+            "designation": [{ "language": "de-DE", "value": "Ambulanter Pflegedienst" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.2"
+              }
+            ]
+          },
+          {
+            "code": "APO",
+            "display": "Apotheke",
+            "designation": [{ "language": "de-DE", "value": "Apotheke" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.2"
+              }
+            ]
+          },
+          {
+            "code": "BER",
+            "display": "Ärztlicher Bereitschaftsdienst",
+            "designation": [{ "language": "de-DE", "value": "Ärztlicher Bereitschaftsdienst" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.2"
+              }
+            ]
+          },
+          {
+            "code": "PRA",
+            "display": "Arztpraxis",
+            "designation": [{ "language": "de-DE", "value": "Arztpraxis" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.2"
+              }
+            ]
+          },
+          {
+            "code": "BAA",
+            "display": "Betriebsärztliche Abteilung",
+            "designation": [{ "language": "de-DE", "value": "Betriebsärztliche Abteilung" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.2"
+              }
+            ]
+          },
+          {
+            "code": "BHR",
+            "display": "Gesundheitsbehörde",
+            "designation": [{ "language": "de-DE", "value": "Gesundheitsbehörde" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.2"
+              }
+            ]
+          },
+          {
+            "code": "HEB",
+            "display": "Hebamme/Geburtshaus",
+            "designation": [{ "language": "de-DE", "value": "Hebamme/Geburtshaus" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.2"
+              }
+            ]
+          },
+          {
+            "code": "HOS",
+            "display": "Hospiz",
+            "designation": [{ "language": "de-DE", "value": "Hospiz" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.2"
+              }
+            ]
+          },
+          {
+            "code": "KHS",
+            "display": "Krankenhaus",
+            "designation": [{ "language": "de-DE", "value": "Krankenhaus" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.2"
+              }
+            ]
+          },
+          {
+            "code": "MVZ",
+            "display": "Medizinisches Versorgungszentrum",
+            "designation": [{ "language": "de-DE", "value": "Medizinisches Versorgungszentrum" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.2"
+              }
+            ]
+          },
+          {
+            "code": "HAN",
+            "display": "Medizinisch-technisches Handwerk",
+            "designation": [{ "language": "de-DE", "value": "Medizinisch-technisches Handwerk" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.2"
+              }
+            ]
+          },
+          {
+            "code": "REH",
+            "display": "Medizinische Rehabilitation",
+            "designation": [{ "language": "de-DE", "value": "Medizinische Rehabilitation" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.2"
+              }
+            ]
+          },
+          {
+            "code": "HEI",
+            "display": "Nicht-ärztliche Heilberufs-Praxis",
+            "designation": [{ "language": "de-DE", "value": "Nicht-ärztliche Heilberufs-Praxis" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.2"
+              }
+            ]
+          },
+          {
+            "code": "PFL",
+            "display": "Pflegeheim",
+            "designation": [{ "language": "de-DE", "value": "Pflegeheim" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.2"
+              }
+            ]
+          },
+          {
+            "code": "RTN",
+            "display": "Rettungsdienst",
+            "designation": [{ "language": "de-DE", "value": "Rettungsdienst" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.2"
+              }
+            ]
+          },
+          {
+            "code": "SEL",
+            "display": "Selbsthilfe",
+            "designation": [{ "language": "de-DE", "value": "Selbsthilfe" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.2"
+              }
+            ]
+          },
+          {
+            "code": "TMZ",
+            "display": "Telemedizinisches Zentrum",
+            "designation": [{ "language": "de-DE", "value": "Telemedizinisches Zentrum" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.3",
+        "extension": [
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "urn:pin:Einrichtungsarten%20ausserhalb%20der%20patientenbezogenen%20Gesundheitsversorgung"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "1.3.6.1.4.1.19376.3.276.1.5.3"
+          }
+        ],
+        "concept": [
+          {
+            "code": "BIL",
+            "display": "Bildungseinrichtung",
+            "designation": [{ "language": "de-DE", "value": "Bildungseinrichtung" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.3"
+              }
+            ]
+          },
+          {
+            "code": "FOR",
+            "display": "Forschungseinrichtung",
+            "designation": [{ "language": "de-DE", "value": "Forschungseinrichtung" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.3"
+              }
+            ]
+          },
+          {
+            "code": "GEN",
+            "display": "Gen-Analysedienste",
+            "designation": [{ "language": "de-DE", "value": "Gen-Analysedienste" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.3"
+              }
+            ]
+          },
+          {
+            "code": "MDK",
+            "display": "Medizinischer Dienst der Krankenversicherung",
+            "designation": [
+              { "language": "de-DE", "value": "Medizinischer Dienst der Krankenversicherung" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.3"
+              }
+            ]
+          },
+          {
+            "code": "PAT",
+            "display": "Patient außerhalb der Betreuung",
+            "designation": [{ "language": "de-DE", "value": "Patient außerhalb der Betreuung" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.3"
+              }
+            ]
+          },
+          {
+            "code": "SPE",
+            "display": "Spendedienste",
+            "designation": [{ "language": "de-DE", "value": "Spendedienste" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.3"
+              }
+            ]
+          },
+          {
+            "code": "VER",
+            "display": "Versicherungsträger",
+            "designation": [{ "language": "de-DE", "value": "Versicherungsträger" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
+        "extension": [
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "urn:pin:IHE.FormatCode.cs"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "1.3.6.1.4.1.19376.1.2.3"
+          }
+        ],
+        "concept": [
+          {
+            "code": "urn:ihe:pcc:xds-ms:2007",
+            "display": "Medical Summaries (XDS-MS)",
+            "designation": [{ "language": "de-DE", "value": "Medical Summaries (XDS-MS)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:xphr:2007",
+            "display": "Exchange of Personal Health Records (XPHR)",
+            "designation": [
+              { "language": "de-DE", "value": "Exchange of Personal Health Records (XPHR)" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:edr:2007",
+            "display": "Emergency Department Referral (EDR)",
+            "designation": [
+              { "language": "de-DE", "value": "Emergency Department Referral (EDR)" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:aps:2007",
+            "display": "Antepartum Summary (APS)",
+            "designation": [{ "language": "de-DE", "value": "Antepartum Summary (APS)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:edes:2007",
+            "display": "Emergency Department Encounter Summary (EDES)",
+            "designation": [
+              { "language": "de-DE", "value": "Emergency Department Encounter Summary (EDES)" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:aphp:2008",
+            "display": "Antepartum History and Physical (APHP)",
+            "designation": [
+              { "language": "de-DE", "value": "Antepartum History and Physical (APHP)" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:apl:2008",
+            "display": "Antepartum Laboratory (APL)",
+            "designation": [{ "language": "de-DE", "value": "Antepartum Laboratory (APL)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:ape:2008",
+            "display": "Antepartum Education (APE)",
+            "designation": [{ "language": "de-DE", "value": "Antepartum Education (APE)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:ic:2009",
+            "display": "Immunization Content (IC)",
+            "designation": [{ "language": "de-DE", "value": "Immunization Content (IC)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:cm:2008",
+            "display": "Care Management (CM)",
+            "designation": [{ "language": "de-DE", "value": "Care Management (CM)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:tn:2007",
+            "display": "??? (urn:ihe:pcc:tn:2007)",
+            "designation": [{ "language": "de-DE", "value": "??? (urn:ihe:pcc:tn:2007)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:nn:2007",
+            "display": "??? (urn:ihe:pcc:nn:2007)",
+            "designation": [{ "language": "de-DE", "value": "??? (urn:ihe:pcc:nn:2007)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:ctn:2007",
+            "display": "??? (urn:ihe:pcc:ctn:2007)",
+            "designation": [{ "language": "de-DE", "value": "??? (urn:ihe:pcc:ctn:2007)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:edpn:2007",
+            "display": "??? (urn:ihe:pcc:edpn:2007)",
+            "designation": [{ "language": "de-DE", "value": "??? (urn:ihe:pcc:edpn:2007)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:hp:2008",
+            "display": "??? (urn:ihe:pcc:hp:2008)",
+            "designation": [{ "language": "de-DE", "value": "??? (urn:ihe:pcc:hp:2008)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:ldhp:2009",
+            "display": "??? (urn:ihe:pcc:ldhp:2009)",
+            "designation": [{ "language": "de-DE", "value": "??? (urn:ihe:pcc:ldhp:2009)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:lds:2009",
+            "display": "??? (urn:ihe:pcc:lds:2009)",
+            "designation": [{ "language": "de-DE", "value": "??? (urn:ihe:pcc:lds:2009)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:mds:2009",
+            "display": "??? (urn:ihe:pcc:mds:2009)",
+            "designation": [{ "language": "de-DE", "value": "??? (urn:ihe:pcc:mds:2009)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:nds:2010",
+            "display": "??? (urn:ihe:pcc:nds:2010)",
+            "designation": [{ "language": "de-DE", "value": "??? (urn:ihe:pcc:nds:2010)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:ppvs:2010",
+            "display": "??? (urn:ihe:pcc:ppvs:2010)",
+            "designation": [{ "language": "de-DE", "value": "??? (urn:ihe:pcc:ppvs:2010)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:trs:2011",
+            "display": "??? (urn:ihe:pcc:trs:2011)",
+            "designation": [{ "language": "de-DE", "value": "??? (urn:ihe:pcc:trs:2011)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:ets:2011",
+            "display": "??? (urn:ihe:pcc:ets:2011)",
+            "designation": [{ "language": "de-DE", "value": "??? (urn:ihe:pcc:ets:2011)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pcc:its:2011",
+            "display": "??? (urn:ihe:pcc:its:2011)",
+            "designation": [{ "language": "de-DE", "value": "??? (urn:ihe:pcc:its:2011)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:iti:xds-sd:pdf:2008",
+            "display": "Scanned Documents (PDF)",
+            "designation": [{ "language": "de-DE", "value": "Scanned Documents (PDF)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:iti:xds-sd:text:2008",
+            "display": "Scanned Documents (text)",
+            "designation": [{ "language": "de-DE", "value": "Scanned Documents (text)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:iti:bppc:2007",
+            "display": "Basic Patient Privacy Consents",
+            "designation": [{ "language": "de-DE", "value": "Basic Patient Privacy Consents" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:iti:bppc-sd:2007",
+            "display": "Basic Patient Privacy Consents with Scanned Document",
+            "designation": [
+              {
+                "language": "de-DE",
+                "value": "Basic Patient Privacy Consents with Scanned Document"
+              }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:iti:appc:2016:consent",
+            "display": "APPC Privacy Consent Document",
+            "designation": [{ "language": "de-DE", "value": "APPC Privacy Consent Document" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:iti:xdw:2011:workflowDoc",
+            "display": "XDW Workflow Document",
+            "designation": [{ "language": "de-DE", "value": "XDW Workflow Document" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:iti:dsg:detached:2014",
+            "display": "DSG Detached Document",
+            "designation": [{ "language": "de-DE", "value": "DSG Detached Document" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:iti:dsg:enveloping:2014",
+            "display": "DSG Enveloping Document",
+            "designation": [{ "language": "de-DE", "value": "DSG Enveloping Document" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:lab:xd-lab:2008",
+            "display": "CDA Laboratory Report",
+            "designation": [{ "language": "de-DE", "value": "CDA Laboratory Report" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:rad:TEXT",
+            "display": "XDS-I CDA Wrapped Text Report (XDS-I)",
+            "designation": [
+              { "language": "de-DE", "value": "XDS-I CDA Wrapped Text Report (XDS-I)" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:rad:PDF",
+            "display": "XDS-I PDF (XDS-I)",
+            "designation": [{ "language": "de-DE", "value": "XDS-I PDF (XDS-I)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:rad:CDA:ImagingReportStructuredHeadings:2013",
+            "display": "XDS-I Imaging Report with Structured Headings (XDS-I)",
+            "designation": [
+              {
+                "language": "de-DE",
+                "value": "XDS-I Imaging Report with Structured Headings (XDS-I)"
+              }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:card:CRC:2012",
+            "display": "Cardiology%20??? (CRC)",
+            "designation": [{ "language": "de-DE", "value": "Cardiology%20??? (CRC)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:card:EPRC-IE:2014",
+            "display": "Cardiology%20??? (EPRC-IE)",
+            "designation": [{ "language": "de-DE", "value": "Cardiology%20??? (EPRC-IE)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:card:imaging:2011",
+            "display": "Cardiac Imaging Report",
+            "designation": [{ "language": "de-DE", "value": "Cardiac Imaging Report" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:dent:TEXT",
+            "display": "Dental CDA Wrapped Text Report (DENT)",
+            "designation": [
+              { "language": "de-DE", "value": "Dental CDA Wrapped Text Report (DENT)" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:dent:PDF",
+            "display": "Dental PDF (DENT)",
+            "designation": [{ "language": "de-DE", "value": "Dental PDF (DENT)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:dent:CDA:ImagingReportStructuredHeadings:2013",
+            "display": "Dental Imaging Report with Structured Headings (DENT)",
+            "designation": [
+              {
+                "language": "de-DE",
+                "value": "Dental Imaging Report with Structured Headings (DENT)"
+              }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:palm:apsr:2016",
+            "display": "Anatomic Pathology Structured Report (APSR)",
+            "designation": [
+              { "language": "de-DE", "value": "Anatomic Pathology Structured Report (APSR)" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pharm:pre:2010",
+            "display": "Pharmacy%20??? (urn:ihe:pharm:pre:2010)",
+            "designation": [
+              { "language": "de-DE", "value": "Pharmacy%20??? (urn:ihe:pharm:pre:2010)" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pharm:padv:2010",
+            "display": "Pharmacy%20??? (urn:ihe:pharm:padv:2010)",
+            "designation": [
+              { "language": "de-DE", "value": "Pharmacy%20??? (urn:ihe:pharm:padv:2010)" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pharm:dis:2010",
+            "display": "Pharmacy%20??? (urn:ihe:pharm:dis:2010)",
+            "designation": [
+              { "language": "de-DE", "value": "Pharmacy%20??? (urn:ihe:pharm:dis:2010)" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:pharm:pml:2013",
+            "display": "Pharmacy%20??? (urn:ihe:pharm:pml:2013)",
+            "designation": [
+              { "language": "de-DE", "value": "Pharmacy%20??? (urn:ihe:pharm:pml:2013)" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:iti:xds:2017:mimeTypeSufficient",
+            "display": "Format aus MIME Type ableitbar",
+            "designation": [{ "language": "de-DE", "value": "Format aus MIME Type ableitbar" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "urn:oid:1.2.840.10008.2.6.1",
+        "extension": [
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "urn:pin:DICOM%20UID"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "urn:dicom:uid"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "1.2.840.10008.2.6.1"
+          }
+        ],
+        "concept": [
+          {
+            "code": "1.2.840.10008.5.1.4.1.1.88.59",
+            "display": "DICOM Manifest (DICOM KOS SOP Class UID)",
+            "designation": [
+              { "language": "de-DE", "value": "DICOM Manifest (DICOM KOS SOP Class UID)" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.2.840.10008.2.6.1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.6",
+        "extension": [
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "urn:pin:Deutsche%20Dokumentenformate"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+          }
+        ],
+        "concept": [
+          {
+            "code": "urn:ihe-d:ig:Entlassmanagementbrief:2018",
+            "display": "Entlassmanagementbrief",
+            "designation": [{ "language": "de-DE", "value": "Entlassmanagementbrief" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe-d:ig:NotaufnahmeregisterTraumaModul:2017",
+            "display": "NotaufnahmeregisterTraumamodul",
+            "designation": [{ "language": "de-DE", "value": "NotaufnahmeregisterTraumamodul" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe-d:ig:NotaufnahmeregisterBasisModul:2017",
+            "display": "NotaufnahmeregisterBasismodul",
+            "designation": [{ "language": "de-DE", "value": "NotaufnahmeregisterBasismodul" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe-d:ig:MeldepflichtigeKrankheitenLabor:2014",
+            "display": "Meldepflichtige Krankheiten: Labormeldung",
+            "designation": [
+              { "language": "de-DE", "value": "Meldepflichtige Krankheiten: Labormeldung" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe-d:ig:MeldepflichtigeKrankheitenArzt:2013",
+            "display": "Übermittlung meldepflichtiger Krankheiten – Arztmeldung",
+            "designation": [
+              {
+                "language": "de-DE",
+                "value": "Übermittlung meldepflichtiger Krankheiten – Arztmeldung"
+              }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe-d:ig:RehaEntlassbrief:2009",
+            "display": "Ärztlicher Reha-Entlassungsbericht",
+            "designation": [{ "language": "de-DE", "value": "Ärztlicher Reha-Entlassungsbericht" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe-d:ig:KurzberichtUeberleitungKrankenhaus:2016",
+            "display": "Überleitungsmanagement Ärztlicher Kurzbericht über den Krankenhausaufenthalt",
+            "designation": [
+              {
+                "language": "de-DE",
+                "value": "Überleitungsmanagement Ärztlicher Kurzbericht über den Krankenhausaufenthalt"
+              }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe-d:ig:KurzberichtUeberleitungNiedergelassenerArzt:2016",
+            "display": "Überleitungsmanagement Ärztlicher Kurzbericht des niedergelassenen Arztes",
+            "designation": [
+              {
+                "language": "de-DE",
+                "value": "Überleitungsmanagement Ärztlicher Kurzbericht des niedergelassenen Arztes"
+              }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe-d:ig:Medikationsplan:2015",
+            "display": "Medikationsplan",
+            "designation": [{ "language": "de-DE", "value": "Medikationsplan" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe-d:ig:Arztbriefplus:2017",
+            "display": "Arztbrief plus",
+            "designation": [{ "language": "de-DE", "value": "Arztbrief plus" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe-d:ig:arztbrief:2014:nonXmlBody",
+            "display": "Arztbrief 2014",
+            "designation": [{ "language": "de-DE", "value": "Arztbrief 2014" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe-d:ig:eppc-g:2015",
+            "display": "Enhanced Patient Privacy Consent - Germany",
+            "designation": [
+              { "language": "de-DE", "value": "Enhanced Patient Privacy Consent - Germany" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe-d:ig:eppc-g-sd:2015",
+            "display": "Enhanced Patient Privacy Consent - Germany - Scanned Document Option",
+            "designation": [
+              {
+                "language": "de-DE",
+                "value": "Enhanced Patient Privacy Consent - Germany - Scanned Document Option"
+              }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe-d:spec:PDF_A1:2005",
+            "display": "PDF/A-1",
+            "designation": [{ "language": "de-DE", "value": "PDF/A-1" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe-d:spec:PDF_A2:2011",
+            "display": "PDF/A-2",
+            "designation": [{ "language": "de-DE", "value": "PDF/A-2" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe-d:spec:PDF_A3:2012",
+            "display": "PDF/A-3",
+            "designation": [{ "language": "de-DE", "value": "PDF/A-3" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe-d:spec:PDF_UA:2008",
+            "display": "PDF/UA",
+            "designation": [{ "language": "de-DE", "value": "PDF/UA" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe-d:mime",
+            "display": "obsolet",
+            "designation": [{ "language": "de-DE", "value": "durch MIME Type beschrieben" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:gematik:ig:Arztbrief:r3.1",
+            "display": "Arztbrief § 291f SGB V",
+            "designation": [{ "language": "de-DE", "value": "Arztbrief § 291f SGB V" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:gematik:ig:Medikationsplan:r3.1",
+            "display": "Medikationsplan (gematik)",
+            "designation": [{ "language": "de-DE", "value": "Medikationsplan (gematik)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:gematik:ig:Notfalldatensatz:r3.1",
+            "display": "Notfalldatensatz",
+            "designation": [{ "language": "de-DE", "value": "Notfalldatensatz" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:gematik:ig:DatensatzPersoenlicheErklaerungen:r3.1",
+            "display": "Datensatz für persönliche Erklärungen (gematik)",
+            "designation": [
+              { "language": "de-DE", "value": "Datensatz für persönliche Erklärungen (gematik)" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:gematik:ig:Impfausweis:r4.0",
+            "display": "obsolet",
+            "designation": [{ "language": "de-DE", "value": "Impfausweis (gematik)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:gematik:ig:Impfausweis:v1.1.0",
+            "display": "Impfausweis (gematik)",
+            "designation": [{ "language": "de-DE", "value": "Impfausweis (gematik)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:gematik:ig:Mutterpass:r4.0",
+            "display": "obsolet",
+            "designation": [{ "language": "de-DE", "value": "Mutterpass (gematik)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:gematik:ig:Mutterpass:v1.0.0",
+            "display": "Mutterpass (gematik)",
+            "designation": [{ "language": "de-DE", "value": "Mutterpass (gematik)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:gematik:ig:Kinderuntersuchungsheft:r4.0",
+            "display": "obsolet",
+            "designation": [{ "language": "de-DE", "value": "Kinderuntersuchungsheft (gematik)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:gematik:ig:Kinderuntersuchungsheft:v1.0.0",
+            "display": "Kinderuntersuchungsheft (gematik)",
+            "designation": [{ "language": "de-DE", "value": "Kinderuntersuchungsheft (gematik)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:gematik:ig:Zahnbonusheft:r4.0",
+            "display": "obsolet",
+            "designation": [{ "language": "de-DE", "value": "Zahnbonusheft (gematik)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:gematik:ig:Zahnbonusheft:v1.0.0",
+            "display": "obsolet",
+            "designation": [{ "language": "de-DE", "value": "Zahnbonusheft (gematik)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:gematik:ig:Arbeitsunfaehigkeitsbescheinigung:r4.0",
+            "display": "Arbeitsunfähigkeitsbescheinigung (gematik)",
+            "designation": [
+              { "language": "de-DE", "value": "Arbeitsunfähigkeitsbescheinigung (gematik)" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:gematik:ig:VerordnungsdatensatzMedikation:r4.0",
+            "display": "Verordnungsdatensatz Medikation (gematik)",
+            "designation": [
+              { "language": "de-DE", "value": "Verordnungsdatensatz Medikation (gematik)" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:gematik:ig:KinderuntersuchungsheftUntersuchungen:r4.0",
+            "display": "obsolet",
+            "designation": [
+              { "language": "de-DE", "value": "Untersuchungen Kinderuntersuchungsheft" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:gematik:ig:KinderuntersuchungsheftUntersuchungen:v1.0.0",
+            "display": "Untersuchungen Kinderuntersuchungsheft",
+            "designation": [
+              { "language": "de-DE", "value": "Untersuchungen Kinderuntersuchungsheft" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:gematik:ig:KinderuntersuchungsheftTeilnahmekarte:r4.0",
+            "display": "obsolet",
+            "designation": [
+              { "language": "de-DE", "value": "Teilnahmekarte Kinderuntersuchungsheft" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:gematik:ig:KinderuntersuchungsheftTeilnahmekarte:v1.0.0",
+            "display": "Teilnahmekarte Kinderuntersuchungsheft",
+            "designation": [
+              { "language": "de-DE", "value": "Teilnahmekarte Kinderuntersuchungsheft" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:gematik:ig:KinderuntersuchungsheftNotizen:r4.0",
+            "display": "obsolet",
+            "designation": [{ "language": "de-DE", "value": " Notizen Kinderuntersuchungsheft" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:gematik:ig:KinderuntersuchungsheftNotizen:v1.0.0",
+            "display": " Notizen Kinderuntersuchungsheft",
+            "designation": [{ "language": "de-DE", "value": " Notizen Kinderuntersuchungsheft" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:hl7-de:DGUV-StatEntlassbrief:2020",
+            "display": "DGUV Stationärer Entlassbrief",
+            "designation": [{ "language": "de-DE", "value": "DGUV Stationärer Entlassbrief" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          },
+          {
+            "code": "urn:gematik:ig:Zahnbonusheft:v1.1.0",
+            "display": "Zahnbonusheft (gematik)",
+            "designation": [{ "language": "de-DE", "value": "Zahnbonusheft (gematik)" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "urn:oid:1.2.276.0.76.11.469",
+        "extension": [
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "1.2.276.0.76.11.469"
+          }
+        ],
+        "concept": []
+      },
+      {
+        "system": "urn:oid:1.2.840.10065.1.12",
+        "extension": [
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "urn:pin:Signature%20Type%20Codes"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "http://hl7.org/fhir/ValueSet/signature-type"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "1.2.840.10065.1.12"
+          }
+        ],
+        "concept": []
+      },
+      {
+        "system": "urn:oid:1.2.840.10008.6.1.19",
+        "extension": [
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "urn:pin:Acquisition%20Modality%20Codes"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "1.2.840.10008.6.1.19"
+          }
+        ],
+        "concept": []
+      },
+      {
+        "system": "urn:oid:1.2.840.10008.6.1.2",
+        "extension": [
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "urn:pin:DICOM%20PS3.16%20CID%203%20Anatomic%20Region"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "1.2.840.10008.6.1.2"
+          }
+        ],
+        "concept": []
+      },
+      {
+        "system": "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.15",
+        "extension": [
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "urn:pin:Dokumenten-Warnhinweise"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "1.3.6.1.4.1.19376.3.276.1.5.15"
+          }
+        ],
+        "concept": [
+          {
+            "code": "H1",
+            "display": "vom Patienten mitgebracht",
+            "designation": [{ "language": "de-DE", "value": "vom Patienten mitgebracht" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.15"
+              }
+            ]
+          },
+          {
+            "code": "H2",
+            "display": "noch nicht mit Patient besprochen",
+            "designation": [{ "language": "de-DE", "value": "noch nicht mit Patient besprochen" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.15"
+              }
+            ]
+          },
+          {
+            "code": "H3",
+            "display": "eventuell veraltete Daten",
+            "designation": [{ "language": "de-DE", "value": "eventuell veraltete Daten" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.15"
+              }
+            ]
+          },
+          {
+            "code": "H4",
+            "display": "vorläufiges Dokument",
+            "designation": [{ "language": "de-DE", "value": "vorläufiges Dokument" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.15"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.16",
+        "extension": [
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "urn:pin:Fallkontext%20bei%20Dokumentenerstellung"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+          }
+        ],
+        "concept": [
+          {
+            "code": "E100",
+            "display": "ambulanter Kontakt",
+            "designation": [{ "language": "de-DE", "value": "ambulanter Kontakt" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E110",
+            "display": "ambulante OP",
+            "designation": [{ "language": "de-DE", "value": "ambulante OP" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E200",
+            "display": "stationärer Aufenthalt",
+            "designation": [{ "language": "de-DE", "value": "stationärer Aufenthalt" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E210",
+            "display": "stationäre Aufnahme",
+            "designation": [{ "language": "de-DE", "value": "stationäre Aufnahme" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E211",
+            "display": "Aufnahme vollstationär",
+            "designation": [{ "language": "de-DE", "value": "Aufnahme vollstationär" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E212",
+            "display": "Aufnahme/Wiederaufnahme teilstationär",
+            "designation": [
+              { "language": "de-DE", "value": "Aufnahme/Wiederaufnahme teilstationär" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E213",
+            "display": "Aufnahme Entbindung stationär",
+            "designation": [{ "language": "de-DE", "value": "Aufnahme Entbindung stationär" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E214",
+            "display": "Aufnahme eines Neugeborenen",
+            "designation": [{ "language": "de-DE", "value": "Aufnahme eines Neugeborenen" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E215",
+            "display": "Aufnahme des Spenders zur Organentnahme",
+            "designation": [
+              { "language": "de-DE", "value": "Aufnahme des Spenders zur Organentnahme" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E230",
+            "display": "stationäre Entlassung",
+            "designation": [{ "language": "de-DE", "value": "stationäre Entlassung" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E231",
+            "display": "stationäre Entlassung nach Hause",
+            "designation": [{ "language": "de-DE", "value": "stationäre Entlassung nach Hause" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E232",
+            "display": "stationäre Entlassung in eine Rehabilitationseinrichtung",
+            "designation": [
+              {
+                "language": "de-DE",
+                "value": "stationäre Entlassung in eine Rehabilitationseinrichtung"
+              }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E233",
+            "display": "stationäre Entlassung in eine Pflegeeinrichtung/Hospiz",
+            "designation": [
+              {
+                "language": "de-DE",
+                "value": "stationäre Entlassung in eine Pflegeeinrichtung/Hospiz"
+              }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E234",
+            "display": "Entlassung zur nachstationären Behandlung",
+            "designation": [
+              { "language": "de-DE", "value": "Entlassung zur nachstationären Behandlung" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E235",
+            "display": "Patient während stationärem Aufenthalt verstorben",
+            "designation": [
+              { "language": "de-DE", "value": "Patient während stationärem Aufenthalt verstorben" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E250",
+            "display": "stationäre Verlegung",
+            "designation": [{ "language": "de-DE", "value": "stationäre Verlegung" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E251",
+            "display": "Verlegung innerhalb eines Krankenhauses",
+            "designation": [
+              { "language": "de-DE", "value": "Verlegung innerhalb eines Krankenhauses" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E252",
+            "display": "Verlegung in ein anderes Krankenhaus",
+            "designation": [
+              { "language": "de-DE", "value": "Verlegung in ein anderes Krankenhaus" }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E253",
+            "display": "externe Verlegung in Psychiatrie",
+            "designation": [{ "language": "de-DE", "value": "externe Verlegung in Psychiatrie" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E270",
+            "display": "kurzzeitige Unterbrechung einer stationären Behandlung",
+            "designation": [
+              {
+                "language": "de-DE",
+                "value": "kurzzeitige Unterbrechung einer stationären Behandlung"
+              }
+            ],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E280",
+            "display": "Konsil",
+            "designation": [{ "language": "de-DE", "value": "Konsil" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E300",
+            "display": "Behandlung im häuslichen Umfeld",
+            "designation": [{ "language": "de-DE", "value": "Behandlung im häuslichen Umfeld" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          },
+          {
+            "code": "E400",
+            "display": "Virtual Encounter",
+            "designation": [{ "language": "de-DE", "value": "Virtual Encounter" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.16"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "urn:oid:1.3.6.1.4.1.19376.1.2.3",
+        "extension": [
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "urn:pin:IHE.FormatCode.cs"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "http://ihe.net/fhir/ValueSet/IHE.FormatCode.codesystem"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "1.3.6.1.4.1.19376.1.2.3"
+          }
+        ],
+        "concept": [
+          {
+            "code": "urn:ihe:iti:xdw:2011:eventCode:open",
+            "display": "Workflow offen",
+            "designation": [{ "language": "de-DE", "value": "Workflow offen" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          },
+          {
+            "code": "urn:ihe:iti:xdw:2011:eventCode:closed",
+            "display": "Workflow abgeschlossen",
+            "designation": [{ "language": "de-DE", "value": "Workflow abgeschlossen" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.1.2.3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "urn:oid:1.3.6.1.4.1.19376.3.276.1.5.10",
+        "extension": [
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "urn:pin:Betroffeneneinschaetzung%20der%20Vertraulichkeitsstufe"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "1.3.6.1.4.1.19376.3.276.1.5.10"
+          }
+        ],
+        "concept": [
+          {
+            "code": "PV",
+            "display": "gesperrt",
+            "designation": [{ "language": "de-DE", "value": "gesperrt" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.10"
+              }
+            ]
+          },
+          {
+            "code": "PR",
+            "display": "erhöhte Vertraulichkeit",
+            "designation": [{ "language": "de-DE", "value": "erhöhte Vertraulichkeit" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.10"
+              }
+            ]
+          },
+          {
+            "code": "PN",
+            "display": "übliche Vertraulichkeit",
+            "designation": [{ "language": "de-DE", "value": "übliche Vertraulichkeit" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "1.3.6.1.4.1.19376.3.276.1.5.10"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "system": "urn:oid:2.16.840.1.113883.5.25",
+        "extension": [
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "urn:pin:Confidentiality"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+          },
+          {
+            "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-AlternateName",
+            "valueString": "2.16.840.1.113883.5.25"
+          }
+        ],
+        "concept": [
+          {
+            "code": "N",
+            "display": "normal",
+            "designation": [{ "language": "de-DE", "value": "normal" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "2.16.840.1.113883.5.25"
+              }
+            ]
+          },
+          {
+            "code": "R",
+            "display": "restricted",
+            "designation": [{ "language": "de-DE", "value": "restricted" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "2.16.840.1.113883.5.25"
+              }
+            ]
+          },
+          {
+            "code": "V",
+            "display": "very restricted",
+            "designation": [{ "language": "de-DE", "value": "very restricted" }],
+            "extension": [
+              {
+                "url": "http://api.phellowseven.com/fhir/StructureDefinition/ValueSet-Code-System",
+                "valueString": "2.16.840.1.113883.5.25"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

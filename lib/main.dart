@@ -84,7 +84,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Future<r4.ValueSet> loadAndParse() async {
-    final jsonString = await rootBundle.loadString("assets/IHE.XDS.classCode.json");
+    final jsonString = await rootBundle.loadString("assets/IHE.XDS.merged.json");
     final jsonMap = jsonDecode(jsonString);
     final valueSet = r4.ValueSet.fromJson(jsonMap);
     return valueSet;
