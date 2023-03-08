@@ -4,6 +4,8 @@ import 'package:fhir/r4.dart' as r4;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import 'value_set_data.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -60,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Center(
         child: FutureBuilder<r4.ValueSet>(
-          future: loadAndParse(),
+          future: loadAndParseAll(),
           builder: (context, snapshot) {
             switch (snapshot.connectionState) {
               case ConnectionState.waiting:
@@ -70,6 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
               case ConnectionState.done:
                 if (snapshot.hasData) {
                   final vs = snapshot.data!;
+                  // return const Text("Snapshot.data loading succeeded");
                   return Text("${vs.title} by ${vs.publisher}");
                 } else {
                   return const Text("Snapshot.data loading failed");
@@ -88,5 +91,51 @@ class _MyHomePageState extends State<MyHomePage> {
     final jsonMap = jsonDecode(jsonString);
     final valueSet = r4.ValueSet.fromJson(jsonMap);
     return valueSet;
+  }
+
+  Future<r4.ValueSet> loadAndParseAll() async {
+    final allAssets = [
+      // "assets/IHE.XDS.classCode.json",
+      // "assets/IHE.XDS.typeCode.json",
+      // "assets/IHE.XDS.practiceSettingCode.json",
+      // "assets/IHE.XDS.healthcareFacilityTypeCode.json",
+      // "assets/IHE.XDS.confidentialityCode.json",
+      // "assets/IHE.XDS.eventCodeList.json",
+      // "assets/IHE.XDS.formatCode.json",
+      // "assets/IHE.XDS.contentTypeCode.json",
+      "assets/IHE.XDS.merged.json",
+      "assets/IHE.XDS.merged.json",
+      "assets/IHE.XDS.merged.json",
+    ];
+
+    List<r4.ValueSet> valueSets = [];
+
+    for (var asset in allAssets) {
+      final jsonString = await rootBundle.loadString(asset);
+      final jsonMap = jsonDecode(jsonString);
+      final valueSet = r4.ValueSet.fromJson(jsonMap);
+      valueSets.add(valueSet);
+    }
+    return valueSets.first;
+  }
+
+  Future<ValueSetData> loadAllData() async {
+    return ValueSetData.loadFromAssets(
+      documentClassPath: "assets/IHE.XDS.classCode.json",
+      documentTypePath: "assets/IHE.XDS.typeCode.json",
+      practiceSettingPath: "assets/IHE.XDS.practiceSettingCode.json",
+      facilityTypePath: "assets/IHE.XDS.healthcareFacilityTypeCode.json",
+      securityLabelPath: "assets/IHE.XDS.confidentialityCode.json",
+      eventCodePath: "assets/IHE.XDS.eventCodeList.json",
+      attachmentFormatPath: "assets/IHE.XDS.formatCode.json",
+      attachmentContentTypePath: "assets/IHE.XDS.contentTypeCode.json",
+    );
+  }
+
+  Future<ValueSetData> loadSubSetOfData() async {
+    return ValueSetData.loadFromAssets(
+      documentClassPath: "assets/IHE.XDS.classCode.json",
+      documentTypePath: "assets/IHE.XDS.typeCode.json",
+    );
   }
 }
